@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.user{
+    min-height: 70px;
+    width: 40%;
+    border: 1px black solid;
+    margin: 2em  ;
+}
+.user-top{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side-user-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
